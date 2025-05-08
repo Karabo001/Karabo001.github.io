@@ -38,7 +38,7 @@
   </section>
 
   <section class="social">
-    <a href="#"><i class="fab fa-instagram"></i></a>
+    <a href="#"><i class="[fab fa](https://www.instagram.com/prettygalaxy_sa?igsh=MXhtZHQ3Zzg4eGU5dQ==)-instagram"></i></a>
     <a href="#"><i class="fab fa-facebook-f"></i></a>
   </section>
 
