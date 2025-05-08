@@ -2,65 +2,59 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Makeup by [Pretty Gallaxy]</title>
-  <link rel="stylesheet" href="styles/style.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Premium makeup artist in Pretoria specializing in bridal, glam, and on-stage looks. Nationwide house calls available.">
+  <meta name="keywords" content="Makeup Artist Pretoria, Bridal Makeup, Face Beat, Glam Makeup, On-stage Makeup, South Africa Makeup Services">
+  <meta name="author" content="Your Name">
+  <title>Premium Makeup Services | Pretoria</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="favicon.ico" />
 </head>
 <body>
-  <div class="top-banner">House Calls Available Nationwide — Based in Pretoria</div>
-
-  <nav class="navbar">
-    <div class="logo">Makeup by [Pretty Gallaxy]</div>
-    <ul>
-      <li><a href="#">Home</a></li>
-    </ul>
-  </nav>
 
   <header class="hero">
-    <h1>Beauty, Makeup & Glam</h1>
-    <p>Expert artistry for every special moment</p>
-    <input type="text" placeholder="Search & Explore" />
+    <div class="container">
+      <h1>Look Stunning, Feel Confident</h1>
+      <p>Luxury Makeup Services for Brides, Artists, and Glam Lovers in South Africa</p>
+      <a href="#services" class="cta-button">Explore Services</a>
+    </div>
   </header>
 
-  <section class="categories">
-    <h2>Explore By Category</h2>
-    <div class="category-grid">
-      <div class="category-card" style="background-image: url('images/category1.jpg');">Soft Glam</div>
-      <div class="category-card" style="background-image: url('images/category2.jpg');">Bridal Makeup</div>
-      <div class="category-card" style="background-image: url('images/category3.jpg');">TV & Stage</div>
+  <section class="about" id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>I'm a professional makeup artist based in Pretoria, passionate about making you feel beautiful and confident. I specialize in soft glam, bridal, and on-stage makeup, and I’m available for house calls nationwide.</p>
     </div>
   </section>
 
-  <section class="before-after">
-    <h2>Before & After Transformations</h2>
-    <img src="images/before-after.jpg" alt="Before and After Makeup" style="max-width: 100%; border-radius: 8px;">
-  </section>
-
-  <section class="social">
-    <a href="#"><i class="[fab fa](https://www.instagram.com/prettygalaxy_sa?igsh=MXhtZHQ3Zzg4eGU5dQ==)-instagram"></i></a>
-    <a href="#"><i class="fab fa-facebook-f"></i></a>
-  </section>
-
-  <footer>
-    <div class="footer-info">
-      <p><strong>Location:</strong> Pretoria, South Africa</p>
-      <p><strong>Hours:</strong> Mon - Sat: By Appointment Only</p>
+  <section class="services" id="services">
+    <div class="container">
+      <h2>Services Offered</h2>
+      <ul class="service-list">
+        <li>✨ Soft Glam</li>
+        <li>💄 Face Beats</li>
+        <li>👰 Bridal Makeup</li>
+        <li>👭 Bridesmaids Makeup</li>
+        <li>🎤 On-stage Makeup for Artists</li>
+      </ul>
     </div>
-    <div class="newsletter">
-      <input type="email" placeholder="Email Address" />
-      <button>Sign Up for Newsletter</button>
+  </section>
+
+  <section class="cta">
+    <div class="container">
+      <h3>Ready to Glow?</h3>
+      <p>Contact me today via WhatsApp to book your luxury makeup experience.</p>
+      <a href="https://wa.me/27817236182" class="cta-button">Chat on WhatsApp</a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 Makeup by [Your Name] | Based in Pretoria, Available Nationwide</p>
     </div>
   </footer>
 
-  <a href="https://wa.me/+27817236182" class="whatsapp-button" target="_blank">
-    <i class="fab fa-whatsapp"></i>
-  </a>
+  <a href="https://wa.me/27817236182" class="whatsapp-float" target="_blank">💬</a>
+
 </body>
 </html>
-
-lign-items: center;
-    text-decoration: none;
-    font-size: 24px;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
-}
