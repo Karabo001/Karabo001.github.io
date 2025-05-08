@@ -53,7 +53,7 @@
     </div>
   </footer>
 
-  <a href="https://wa.me/yourphonenumber" class="whatsapp-button" target="_blank">
+  <a href="https://wa.me/+27817236182" class="whatsapp-button" target="_blank">
     <i class="fab fa-whatsapp"></i>
   </a>
 </body>
