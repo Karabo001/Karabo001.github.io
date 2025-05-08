@@ -11,7 +11,7 @@
   <div class="top-banner">House Calls Available Nationwide — Based in Pretoria</div>
 
   <nav class="navbar">
-    <div class="logo">Makeup by [Your Name]</div>
+    <div class="logo">Makeup by [Pretty Gallaxy]</div>
     <ul>
       <li><a href="#">Home</a></li>
     </ul>
