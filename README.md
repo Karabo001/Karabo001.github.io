@@ -55,6 +55,7 @@
   </footer>
 
   <a href="https://wa.me/27817236182" class="whatsapp-float" target="_blank">💬</a>
+<link rel="stylessheet" href="style.css">
 /* Reset */
 * {
   margin: 0;
