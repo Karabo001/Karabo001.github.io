@@ -1,0 +1,138 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff0f5;
+  color: #333;
+}
+
+.navbar {
+  background-color: #4b0082;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10%;
+}
+
+.logo {
+  height: 50px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.navbar a:hover {
+  color: #ffb6c1;
+}
+
+.hero {
+  background-color: #dda0dd;
+  text-align: center;
+  padding: 80px 20px;
+  color: #fff;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: #ffb6c1;
+  color: #4b0082;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #ffc0cb;
+}
+
+.about, .services, .testimonials, .contact {
+  padding: 60px 10%;
+  background-color: #fff;
+}
+
+.about h2, .services h2, .testimonials h2, .contact h2 {
+  color: #4b0082;
+}
+
+.services ul {
+  list-style: disc inside;
+  margin-top: 20px;
+}
+
+.testimonial {
+  background-color: #fce4ec;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 500px;
+}
+
+.contact input, .contact textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: inherit;
+}
+
+.contact button {
+  background-color: #4b0082;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.contact button:hover {
+  background-color: #6a0dad;
+}
+
+footer {
+  background-color: #eee;
+  text-align: center;
+  padding: 20px;
+  color: #555;
+}
+
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  z-index: 1000;
+}
+
+.whatsapp-float img {
+  width: 100%;
+  height: auto;
+}
